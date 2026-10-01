@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: slategray;
+
+}
+
+header {
+    height: 20vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header img {
+    margin-left: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+main {
+    height: 60vw;
+    width: 50vw;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(70, 82, 94);
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+main img {
+    width: 800px;
+    height: 450px;
+    border-radius: 60px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+
+.formulario {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.formulario input {
+    font-size: 20px;
+    width: 800px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+.botao {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.botao button{
+    width: 400px;
+    height: 100px;
+    font-size: 20px;
+     background-color: slategray;
+     color: white;
+    border-radius: 40px;
+    border: 1px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.botaocadastro {
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.botaocadastro button{
+    margin: 40px;
+    width: 200px;
+    height: 60px;
+    background-color: slategray;
+    color: white;
+        border: 1px solid white;
+    border-radius: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    background-color: rgb(83, 152, 209);
+    color: white;
+}

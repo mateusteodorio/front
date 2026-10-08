@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: slategray;
+    color: white;
 
 }
 
@@ -116,4 +117,9 @@ main img {
 button:hover {
     background-color: rgb(83, 152, 209);
     color: white;
+}
+
+.formulario a{
+    color: white;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }

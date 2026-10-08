@@ -1,14 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CadastroAgendamento.css">
     <title>Cadastro de Agendamentos</title>
 </head>
 <body>
-    <a href="menu.html">Voltar/Sair </a>
+  
+     <header>
 
-    <h1>Cadastro de Agendamentos</h1>
+        <div class="LogoNome">
+            <img src="imagens/Logo.png" alt="Ricardo">
+
+            <h1>
+                <i class="fa-solid fa-wrench"></i>
+                Pacífico Mecanica Automotiva
+                <i class="fa-solid fa-car"></i>
+            </h1>
+        </div>
+
+        <hr style="height: 80px;">
+
+        <nav>
+
+            <ul>
+
+                <li><a href="ListaAgendamentos.html">Agendamentos </a></li>
+
+                <li><a href="ListaClientes.html">Clientes </a></li>
+
+                <li><a href="CadastroCliente.html">Cadastro Cliente </a></li>
+
+                <li><a href="CadastroVeiculo.html">Cadastro Veiculos</a></li>
+
+                <li><a href="CadastroAgendamento.html">Cadastro Agendamentos </a></li>
+
+                <li><a href="menu.html">Voltar/Sair </a></li>
+
+
+            </ul>
+
+
+
+        </nav>
+
+        <hr style="height: 80px;">
+
+        <div class="perfil-user">
+            <img src="imagens/download.jpg" alt="perfil">
+            <p>Deybson Biondo</p>
+        </div>
+
+    </header>
+
+    <section class="Menu2">
+
+        
+
+    </section>
+
+    
+
+    <h1 class="titulo"> Novo Agendamento</h1>
+
+    <main>
+
+        <form action="Inputs">
+
+            <label for="Data"> Data (Ano-Mês-Dia): <div
+                    style="background-color: white; margin: 10px;border-radius: 20px;width: 850px;">......<input
+                        type="text"> </div></label>
+
+            <label for="Problema"> Problema: <div
+                    style="background-color: white; margin: 10px;border-radius: 20px;width: 850px;">......<input
+                        type="text"> </div></label>
+
+            <label for="Valor"> Valor: <div style="background-color: white; margin: 10px;border-radius: 20px;width: 850px;">......
+                    <input type="text"> </div></label>
+                    
+
+           
+
+        </form>
+
+         <section class="foto">
+
+            <div class="foto-loja">
+
+                <img src="imagens/frente-oficina.jpg" alt="oficina">
+            
+
+            </div>
+
+            <div class="Valores">
+            
+                <ol>
+                    <li>🔧 Compromisso com a qualidade
+Trabalhamos com dedicação e atenção a cada detalhe para oferecer serviços que atendam às necessidades do seu veículo.</li>
+
+<li>🤝 Transparência e honestidade
+Valorizamos a confiança de nossos clientes, com clareza nas informações e responsabilidade em cada serviço realizado.</li>
+
+<li>🛠️ Segurança em primeiro lugar
+Cuidamos do seu veículo com responsabilidade, priorizando a segurança e o bom funcionamento em cada manutenção.</li>
+
+<li>🚗 Desempenho e confiança
+Nosso objetivo é ajudar você a dirigir com mais tranquilidade, oferecendo cuidado, dedicação e compromisso com o desempenho do seu carro.</li>
+
+<li>Pacífico Mecânica Automotiva — seu carro em boas mãos, sua confiança em primeiro lugar!</li>
+                </ol>
+            </div>
+
+        </section>
+
+        <section class="botao"> <a href="CadastroAgendamento.html"><button>CADASTRAR</button></a> </section>
+
+
+
+
+    </main>
+    
     
 </body>
 </html>

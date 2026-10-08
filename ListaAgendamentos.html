@@ -1,12 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ListaAgendamentos.css">
     <title>Lista de Agendamentos</title>
 </head>
 <body>
-    <a href="menu.html">Voltar/Sair </a>
-    <h1>Lista de Agendamentos</h1>
+
+    <header>
+
+        <div class="LogoNome">
+            <img src="imagens/Logo.png" alt="Ricardo">
+
+            <h1>
+                <i class="fa-solid fa-wrench"></i>
+                Pacífico Mecanica Automotiva
+                <i class="fa-solid fa-car"></i>
+            </h1>
+        </div>
+
+        <hr style="height: 80px;">
+
+        <nav>
+
+            <ul>
+
+                <li><a href="ListaAgendamentos.html">Agendamentos </a></li>
+
+                <li><a href="ListaClientes.html">Clientes </a></li>
+
+                <li><a href="CadastroCliente.html">Cadastro Cliente </a></li>
+
+                <li><a href="CadastroVeiculo.html">Cadastro Veiculos</a></li>
+
+                <li><a href="CadastroAgendamento.html">Cadastro Agendamentos </a></li>
+
+                <li><a href="menu.html">Voltar/Sair </a></li>
+
+
+            </ul>
+
+
+
+        </nav>
+
+        <hr style="height: 80px;">
+
+        <div class="perfil-user">
+            <img src="imagens/download.jpg" alt="perfil">
+            <p>Deybson Biondo</p>
+        </div>
+
+    </header>
+
+    <section class="Menu2">
+
+        
+
+    </section>
+
+    
+
+    <h1 class="titulo">Agendamentos</h1>
+
+    <main>
+        
+
+        <table class="tabela">
+
+            <thead>
+                <th>Data</th>
+                <th>Problema</th>
+                <th>Valor</th>
+                <th>Ações</th>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                <td>2024-02-04</td>
+                <td>Pneu Furado</td>
+                <td>1000 R$</td>
+                <td class="acoes"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
+                </tr>
+
+                <tr>
+                    <td>2026-07-29</td>
+                    <td>Batida, Troca de Parachoque</td>
+                    <td>5000 R$</td>
+                    <td class="acoes"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
+                </tr>
+
+                <tr>
+                    <td>2026-01-07</td>
+                    <td>Vazamento de Óleo</td>
+                    <td>1000 R$</td>
+                    <td class="acoes"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
+                </tr>
+
+                <tr>
+                    <td>2026-09-16</td>
+                    <td>Bateria e Motor Danificados</td>
+                    <td>10000 R$</td>
+                    <td class="acoes"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                <td colspan="2" >Total De Agendamentos</td>
+                <td colspan="2">4</td>
+                </tr>
+
+            </tfoot>
+
+        </table>
+
+    </main>
+    
+    
 </body>
 </html>

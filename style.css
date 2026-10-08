@@ -43,14 +43,14 @@ main {
     align-items: center;
     background-color: rgb(70, 82, 94);
     border-radius: 50px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 main img {
-    width: 800px;
-    height: 450px;
+    width: 700px;
+    height: 580px;
     border-radius: 60px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 15px double rgb(255, 255, 255);
 }
 
 
@@ -73,6 +73,10 @@ main img {
     height: 50px;
     border: none;
     outline: none;
+}
+
+.caixas:hover{
+    border: 2px solid black;
 }
 
 .botao {

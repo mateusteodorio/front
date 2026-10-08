@@ -9,6 +9,7 @@ body{
     flex-direction: column;
       background-color: slategray;
       align-items: center;
+      overflow: hidden;
       
       
 }
@@ -79,6 +80,16 @@ li:hover{
     color: antiquewhite;
 }
 
+li:hover{
+    background-color: rgb(70, 82, 94);
+    border-radius: 80px;
+    
+}
+
+.caixas:hover{
+    border: 2px solid black;
+}
+
 main{
     width: 100vw;
     height: 40vw;
@@ -90,7 +101,9 @@ main{
 }
 
 .tabela{
-    font-size: 40px;
+    width: 50vw;
+    height: 20vw;
+    font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
     border: 2px solid white;
@@ -105,8 +118,18 @@ main{
 
 .tabela th, tfoot td{
     background-color: rgb(48, 56, 65);
+    text-align: center;
 }
+
+.acoes{
+    text-align: center;
+}
+
 .tabela tr{
     background-color: rgb(70, 82, 94);
     color: beige;
+}
+
+.tabela tfoot td{
+text-align: center;
 }

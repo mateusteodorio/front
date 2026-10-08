@@ -60,6 +60,12 @@ ul{
     flex-direction: row;
 }
 
+li:hover{
+    background-color: rgb(70, 82, 94);
+    border-radius: 80px;
+    
+}
+
 li, a{
     color: black;
     text-decoration: none;
@@ -70,6 +76,10 @@ li, a{
 
 li:hover{
     color: antiquewhite;
+}
+
+.caixas:hover{
+    border: 2px solid black;
 }
 
 
@@ -87,13 +97,13 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: xx-large;
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     width: 60vw;
-    height: 30vw;
+    height: 28vw;
     background-color: slategray;
     color: white;
-    border-radius: 300px;
+    border-radius: 600px;
     border: 22px double white;
 }
 
